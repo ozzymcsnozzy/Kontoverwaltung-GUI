@@ -1,4 +1,4 @@
-# Kontoverwaltung
+# Kontoverwaltung-GUI
 
 Projekt: Kontoverwaltung\
 Datum: 26/09/2025
