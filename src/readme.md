@@ -1,20 +1,17 @@
-2aAPC Fabian Häusl
-Bankkonto
-Mein Programm ist eine kleine Bank-Konsolenanwendung:
+# Kontoverwaltung
 
-Ich habe eine Basisklasse BankAccount, die Inhaber, Kontonummer, Bankleitzahl, Kontostand und Kontoart speichert. Dort gibt es Methoden für Ein- und Auszahlungen sowie einen Kontoauszug.
+Projekt: Kontoverwaltung\
+Datum: 26/09/2025
 
-Daraus leite ich drei Kontotypen ab:
+Author: Armin Dzafic \
+LBS Eibiswald | 2aAPC
 
-CheckingAccount mit Dispo-Limit,
+## Projektbeschreibung
 
-SavingsAccount ohne Besonderheiten,
+Kontoverwaltungssystem als GUI-App, laut arbeitsauftrag A3 \
+Es kann auf jedes Konto eingezahlt und abgehoben werden.\
+Transfer zwischen 2 Konten ist auch möglich. \
+Das Löschen, Erstellen, und Anzeigen von allen Konten, 
+sowie jegliche funktionalität der Konsolenversion wird jetzt über die Swing UI gehandelt.\
 
-CreditAccount, das negative Stände erlaubt und nur bis 0 zurückgezahlt werden darf.
 
-Im Hauptprogramm verwalte ich die Konten in einer ArrayList und biete über ein Menü folgende Funktionen: BankAccount anlegen, Geld ein- und auszahlen, Kontodaten anzeigen, Überweisen, BankAccount löschen und das Programm beenden.
-
-Stärken meines Programms sind die Nutzung von Vererbung, Polymorphie und Kapselung.
-Probleme gibt es bei der Überweisung (Zielkonto wird falsch belastet), bei der Abfrage (falsches | statt &&), bei der Typwahl (getBankleitzahl gibt float zurück) sowie bei ungenutzten Feldern und fehlender Eingabeprüfung.
-<img src="C:\Users\FabianHäusl\Desktop\Eibiswald\ITL1\BankKonto\src\img\Screenshot 2025-10-02 194503.png">
-<img src= "C:\Users\FabianHäusl\Desktop\Eibiswald\ITL1\BankKonto\src\img\Screenshot 2025-10-02 194530.png">
